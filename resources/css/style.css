@@ -1,0 +1,26 @@
+
+
+
+
+
+
+
+header {
+
+        font-family: Verdana;
+        font-size: 14px;
+        font-weight: bold;
+        color: MediumAquamarine;
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        width: 80%;
+        margin-left: 10px;
+        margin-right: 50px;
+      }
+
+
+nav {   align-items: baseline;
+
+
+}
