@@ -2,25 +2,31 @@
 
 
 
+/* header */
 
+#mytimes {
 
-
-header {
-
-        font-family: Verdana;
+        font-family: Verdana, sans-serif;
         font-size: 14px;
         font-weight: bold;
         color: MediumAquamarine;
         display: flex;
         justify-content: space-between;
         align-items: baseline;
-        width: 80%;
-        margin-left: 10px;
-        margin-right: 50px;
+        padding: 0 2rem;
+
       }
 
+nav
+  span {color: white; }
 
-nav {   align-items: baseline;
+
+
+/* main container*/
+
+.main {
+        display: flex;
+       
 
 
 }
