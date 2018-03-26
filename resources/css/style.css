@@ -1,31 +1,159 @@
-body
+body      {
+
+            font-family: Georgia;
+            font-size: 17px;
+            color: black;
+
+}
 
 
 header    {
 
+           display: flex;
+           align-items: center;
+           width: 100%;
+           border: 1px solid black;
+           font-family: verdana, sans-serif;
+           font-size: 14px;
+           font-weight: bold;
+           padding-bottom: 10px;
 
-            display: flex;
-            font-family: verdana; sans-serif;
-            font-size: 14px;
-            font-weight: bold;
-            align-items: center;
-            border-bottom: 1px solid black; 
+
+}
+
+
+
+
+nav       {
+
+          display: inline-flex;
 
 
           }
 
 
-.logo       {
 
 
-              display: flex;
-              color: MediumAquamarine;
-              align-items: center;
+
+.logo     {
+
+
+          display: flex;
+          align-items: center;
+          padding-left: 30px;
+          flex-grow: 1;
+
+
+        }
+
+.logo span {
+
+
+          color: MediumAquamarine;
+
+
+         }
+
+
+/*main content*/
+
+.main       {
+
+            display: flex;
+            width: 1250px;
+            margin: 0 auto 78px auto;
+
 
             }
 
-nav span    {
-              display: inline-block;
 
+.column     {
+            display: flex;
+            flex-direction: column;
+
+
+
+}
+
+.column-large {
+
+             width: 630px;
+
+
+}
+
+
+.lead-story .image-content
+
+              {
+
+                background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png');
+                width: 600px;
+                height: 300px;
+                margin-top: 20px;
+                color: white;
+                font-family: Georgia, sans-serif;
+                font-weight: bold;
+                font-size: 40px;
+
+
+
+
+
+
+              }
+
+.lead-story .image-content span
+
+              {
+
+                text-align: center;
+                background-position: center;
+
+
+              }
+
+
+
+
+
+
+.column-medium {
+
+              width: 300px;
+
+
+}
+
+
+.column-small {
+
+            width: 240px;
+
+}
+
+
+
+
+.news-bites h2 {
+
+          font-size: 16px;
+          font-weight: bold;
+          text-align: center;
+          margin-top: 20px; 
+          margin-bottom: 20px;
+
+         }
+
+.news-bites .bite {
+
+          display: block;
+          background-color: WhiteSmoke;
+          font-family: Verdano, sans-serif;
+          font-size: 12px;
+          color: Dimgray;
+          padding: 10px 10px;
+          border-bottom: 1px solid black;
+          margin-left: 30px;
 
 }
