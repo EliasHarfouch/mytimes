@@ -64,6 +64,9 @@ nav       {
             margin: 0 auto 78px auto;
 
 
+
+
+
             }
 
 
@@ -73,11 +76,14 @@ nav       {
 
 
 
+
 }
 
 .column-large {
 
              width: 630px;
+
+
 
 
 }
@@ -113,17 +119,76 @@ nav       {
 
               }
 
+.stories        {
+
+                  display: flex;
+                  justify-content: space-between;
+
+
+}
 
 
 
 
+
+.camera-hipster   {
+
+                  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png');
+                  height: 300px;
+                  margin-top: 100px;
+}
+
+.camera-hipster span {
+                  color: white;
+                  font-family: Georgia, sans-serif;
+                  font-size: 30px;
+                  font-weight: bold;
+
+
+
+}
+
+.image-content2         {
+                  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png');
+                  height: 300px;
+}
+
+
+.image-content2 span {
+
+                  color: white;
+                  font-family: Georgia, sans-serif;
+                  font-size: 30px;
+                  font-weight: bold;
+}
 
 .column-medium {
 
               width: 300px;
+              margin-left: 30px;
+
 
 
 }
+
+.cat-ceo.image-content
+
+                    {
+                      background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png');
+                      height: 300px;
+
+                    }
+
+.cat-ceo.image-content span
+
+                    {
+
+                      color: white;
+                      font-family: Georgia, sans-serif;
+                      font-size: 30px;
+                      font-weight: bold;
+
+                    }
 
 
 .column-small {
@@ -140,7 +205,7 @@ nav       {
           font-size: 16px;
           font-weight: bold;
           text-align: center;
-          margin-top: 20px; 
+          margin-top: 20px;
           margin-bottom: 20px;
 
          }
@@ -155,5 +220,31 @@ nav       {
           padding: 10px 10px;
           border-bottom: 1px solid black;
           margin-left: 30px;
+          width: 200px;
+          height: 20px;
 
 }
+
+
+.footer-container  {
+          display: flex;
+          align-items: center;
+          background-color: MediumAquamarine;
+          margin: auto;
+          font-family: Verdana, sans-serif;
+          justify-content: center;
+          height: 300px; 
+
+
+        }
+
+.footer-container span {
+
+
+          font-family: Georgia, sans-serif;
+          font-size: 16px;
+          font-weight: bold;
+          color: white;
+
+        }
+.footer-container span nav a {font-size: 12px}
